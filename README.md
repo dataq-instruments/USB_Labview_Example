@@ -29,6 +29,12 @@
 
 - LabView's VISA driver keeps data from previous session if the port is not closed properly, so please press Stop button to close the port before exiting the program
 
+- When configuring the serial, disable termination char feature so that ALL binary data can go through
+
+- The last undocumented command "nop" will do nothing and will not generate echo from the device, so that we can flush the input buffer immediately before issuing start command
+
+- The default serial data format in LabView is big endian, and the one from device is little endian 
+
  
 **Extra**:
 
