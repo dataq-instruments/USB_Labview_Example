@@ -1,6 +1,6 @@
 # USB_Labview_Example
 
- It demonstrate how to use Labview's VISA driver and our device protocol, **without .NET class nor ActiveX**, to set up and acquire data then display in a chart. It applies to DI-1100, DI-1110, DI-1120, DI-2108, DI-2008, DI-4108, DI-4208, DI-4718B, and DI-4730 USB. It supports both 32 and 64-bit LabView
+ It demonstrate how to use Labview's VISA driver and our device protocol, **without .NET class nor ActiveX**, to set up and acquire data then display the waveform in a chart. It applies to DI-1100, DI-1110, DI-1120, DI-2108, DI-2008, DI-4108, DI-4208, DI-4718B, and DI-4730 USB. It supports both 32 and 64-bit LabView
 
 **Prerequisites**:
 
