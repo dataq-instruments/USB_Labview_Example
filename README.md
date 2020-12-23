@@ -35,6 +35,8 @@
 
 - The default serial data format in LabView is big endian, and the one from device is little endian 
 
+- Before converting byte data stream to int16 data stream, always retrieve even number bytes from the input buffer
+
  
 **Extra**:
 
