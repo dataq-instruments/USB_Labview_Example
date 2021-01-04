@@ -17,8 +17,8 @@
 ![alt text](https://www.dataq.com/resources/repository/matlab_devicemanager.png)
 
  2) Two sample vis are available
-   - rawcdc_protocol.vi is for single channel
-   - rawcdc_protocol_2ch.vi is for two channels, it demonstrate how to reshape the array to plot two channels
+    - rawcdc_protocol.vi is for single channel
+    - rawcdc_protocol_2ch.vi is for two channels, it demonstrate how to reshape the array to plot two channels
  
  3) Load a sample vi above, you can exam the block diagram (the following is from rawcdc_protocol.vi):<br/>
  ![alt text](https://www.dataq.com/resources/repository/lvrawcdc1.png)
