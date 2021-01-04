@@ -39,6 +39,9 @@
 
 - Before converting byte data stream to int16 data stream, always retrieve even number bytes from the input buffer
 
+- When accquiring multiple channels, one needs to reshape the array <br/>
+![alt text](https://www.dataq.com/resources/repository/labview2h.png "ScreenCapture by LICECap") 
+
  
 **Extra**:
 
