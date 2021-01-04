@@ -16,13 +16,15 @@
  1) Use Windows Device Manager to find out the COM port for your device and enter it to COM Port text box <br/><br/>
 ![alt text](https://www.dataq.com/resources/repository/matlab_devicemanager.png)
 
- 2) Load the sample vi above, you can exam the block diagram:<br/>
+ 2) Two sample vis are available here, one for single channel (simplier), one for two channels (demonstrate how to reshape the array to plot two channels)
+ 
+ 3) Load a sample vi above, you can exam the block diagram (the following is from single channel vi):<br/>
  ![alt text](https://www.dataq.com/resources/repository/lvrawcdc1.png)
 
- 3) Bring Front Panel into focus and click Run to start it<br/>
+ 4) Bring Front Panel into focus and click Run to start it<br/>
 ![alt text](https://www.dataq.com/resources/repository/lvrawcdc2.gif "ScreenCapture by LICECap")  
 
- 4) To debug, please read the protocol to learn more, and exam the error codes
+ 5) To debug, please read the protocol to learn more, and exam the error codes
 
 
 **Note**:
