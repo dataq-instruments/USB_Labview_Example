@@ -39,7 +39,7 @@
 
 - Before converting byte data stream to int16 data stream, always retrieve even number bytes from the input buffer
 
-- When accquiring multiple channels, one needs to reshape the array (the following block applies to 2 channel configuration) <br/>
+- When accquiring multiple channels, one needs to always retrieve data in terms of scans and reshape the array (the following block applies to 2 channel configuration) <br/>
 ![alt text](https://www.dataq.com/resources/repository/labview2ch.png "ScreenCapture by LICECap") 
 
  
