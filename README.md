@@ -35,7 +35,9 @@
 
 - When configuring the serial, disable termination char feature so that ALL binary data can go through
 
-- The last undocumented command "nop" will do nothing and will not generate echo from the device, so that we can flush the input buffer immediately before issuing start command
+- After each command is sent, a read to serial port will clear the echo. To simplify the demo, we didn't bother to verify the echo to ensure each command is constructed and processed properly.
+
+- The last undocumented command "nop" will do nothing and will not generate echo from the device, it just adds extra time to flush the input buffer before the start command
 
 - The default serial data format in LabView is big endian, and the one from device is little endian 
 
