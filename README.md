@@ -21,7 +21,7 @@
     - rawcdc_protocol_2ch.vi is for two channels, it demonstrate how to reshape the array to plot two channels
  
  3) Load a sample vi above, you can exam the block diagram (the following is from rawcdc_protocol.vi):<br/>
- ![alt text](https://www.dataq.com/resources/repository/lvrawcdc1.png)
+ ![alt text](https://www.dataq.com/resources/repository/lvrawcdc_ch1.png)
 
  4) Bring Front Panel into focus and click Run to start it<br/>
 ![alt text](https://www.dataq.com/resources/repository/lvrawcdc2.gif "ScreenCapture by LICECap")  
@@ -42,7 +42,7 @@
 - Before converting byte data stream to int16 data stream, always retrieve even number bytes from the input buffer
 
 - When accquiring multiple channels, besides adding extra member to the scanlist, one also needs to always retrieve data in terms of scans and reshape the array before charting (the following block applies to 2 channel configuration) <br/>
-![alt text](https://www.dataq.com/resources/repository/lvrawcdc3.png "block for two channel configuration") 
+![alt text](https://www.dataq.com/resources/repository/lvrawcdc_ch1.png "block for two channel configuration") 
 
  
 **Extra**:
